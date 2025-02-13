@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
@@ -17,9 +17,13 @@
         <a href="if_else.html">if_else</a>
    </nav>
    <div class="container">
-    <h1>Welcome to Basic Javascript Site</h1>
-    <p>Click the Link above to explore javascript functionalities.</p>
+    <h2>Form validation</h2>
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Enter your name">
+        <button type="submit">submit</button>
 
-   </div>
+    </form>
+    </div>
+    <script src="script.js""></script>
 </body>
 </html>

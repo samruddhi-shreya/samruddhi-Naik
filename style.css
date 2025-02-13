@@ -1,34 +1,25 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color:aqua;
     margin: 0;
     padding: 0;
+    background-color: aliceblue;
 }
-.counter-container{
-    background: palegreen;
+nav{
+    background: black;
+    padding: 10px;
+}
+nav a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+container{
+    margin: 50px auto;
+    max-width: 600px ;
+    background: white;
     padding: 20px;
-    border-radius:10px ;
-    display: inline-block;
-    margin-top: 50px;
-}
-button{
-    font-size: larger;
-    padding: 10px 20px;
-    margin: 5px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: 0.3s;
-    background-color: white;   
-
-}
-#Increase{
-    background-color:pink;
-}
-#Decrease{
-    background-color: bisque;
-}
-#Reset{
-    background-color: palevioletred;
+    box-shadow: 0px 0px 10px  white;
+    display: flex;
+    justify-content: space-evenly;
 }
