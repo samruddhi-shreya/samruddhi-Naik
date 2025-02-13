@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="alert.html">alert</a>
-        <a href="dom.html">dom</a>
-    </nav>
-    <div>
-        <h1>Welcome to javascript class</h1>
+    <div class="container">
+        <h2>To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="Enter Task Here">
+        <button id="addTask" onclick="addTask()">Add Task</button>
+        <ul id="taskList"></ul>
 
-        <p>This is my first class</p>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
